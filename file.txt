@@ -35,4 +35,5 @@ Participating actors - Database
 Brief description - Manager wants to generate weekly reports of all the cars rented
 Initiating Actor - Manager
 Actor's goal - generate weekly reports that show a log of cars rented
+Participating actors - Database
 
