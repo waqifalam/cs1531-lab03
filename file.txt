@@ -1,0 +1,38 @@
+Task 1 - Identify the system actors and goals
+
+1. Customer - Rent a car, Search cars 
+2. AffordableRentals staff - login and enter a new car information
+3. Managers - generate weekly reports that show a log of cars rented 
+4. Credit card validation system - validates the credid card detail provided
+5. QBEI insurance - Providing insurance
+6. Database - Stores all information used by the system
+
+Task 3 - Define a detailed use-case specification for the main use-case of a customer renting a car
+Use Cases -
+1. Use-case name - Customer search criteria and view available cars
+Brief description - Customer wants to seach and view available cars based on their criteria
+Initiating Actor - Customer
+Actor's goal - Searching and viewing cars
+Participating actors - Database
+
+2. Use-case name - Customer select car and proceed with booking
+Brief description - Customer wants to select a car and proceed with booking
+Initiating actor - Customer
+Actor's goal - Customer wants to search a car and book the car
+Participating actors - QBEI insurances
+Flow of events - 1. Customer selects car from the search result and proceeds with booking
+                 2. Customer specifies additional details
+                 3. Customer can buy insurance from QBEI insurance
+                 4. An email of booking confirmation is sent to the customer
+
+3. Use-case name - AffordableRentals staff add new car information
+Brief description - The staff of the company will login and can add new car information into the database
+Initiating Actor - AffordableRentals Staff
+Actor's goal - Adding a new car information
+Participating actors - Database
+
+4. Use-case name - Managers generate weekly reports that show a log of cars rented
+Brief description - Manager wants to generate weekly reports of all the cars rented
+Initiating Actor - Manager
+Actor's goal - generate weekly reports that show a log of cars rented
+
